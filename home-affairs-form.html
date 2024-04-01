@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for character set and responsive design -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title of the webpage -->
+  <title>Home Affairs Form</title>
+  <!-- Link to external CSS file for styling -->
+  <link href="home-affairs-form.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Heading for the form -->
+  <h2>HOME AFFAIRS</h2>
+
+  <!-- Form for collecting user data -->
+  <form id="homeAffairsForm" action="/HomeAffairsForm.html" method="get">
+
+    <!-- Fieldset for personal information -->
+    <fieldset>
+      <!-- Legend for grouping personal information -->
+      <legend>Personal Information</legend>
+      <!-- Input field for first name -->
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" placeholder="FIRST NAME" required><br><br>
+      <!-- Input field for last name -->
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" placeholder="LAST NAME" required><br><br>
+      <!-- Input field for email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="abc@gmail.com" required><br><br>
+      <!-- Input field for confirming email -->
+      <label for="confirmEmail">Confirm Email:</label>
+      <input type="email" id="confirmEmail" name="confirmEmail" placeholder="abc@gmail.com" required><br><br>
+      <!-- Input field for phone number -->
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="000-000-0000"><br><br>
+      <!-- Input field for confirming phone number -->
+      <label for="confirmPhoneNumber">Confirm Phone Number:</label>
+      <input type="tel" id="confirmPhoneNumber" name="confirmPhoneNumber" placeholder="000-000-0000" required><br><br>
+    </fieldset>
+
+    <!-- Heading for ID photo upload -->
+    <h2>Please provide your ID photo below:</h2>
+    <!-- Input field for uploading ID photo -->
+    <input type="file" id="idPhoto" name="idPhoto" accept=".jpg,.jpeg,.png" required><br>
+    <!-- Information about accepted file formats -->
+    <p>Accepted file formats: JPG, JPEG, PNG</p><br>
+
+    <!-- Fieldset for home address -->
+    <fieldset>
+      <!-- Legend for grouping home address information -->
+      <legend>Home Address</legend>
+      <!-- Subheading and input field for street number -->
+      <h4>Street Number</h4>
+      <input type="number" id="streetNumber" name="streetNumber" required><br><br>
+      <!-- Subheading and input field for street name -->
+      <h4>Street Name</h4>
+      <input type="text" id="streetName" name="streetName" required><br><br>
+      <!-- Subheading and textarea for complex information -->
+      <h4>Complex Information (Optional)</h4>
+      <textarea name="complexInformation" id="complexInformation" cols="30" rows="10" placeholder="Enter complex name or unit number (optional)"></textarea><br><br>
+      <!-- Subheading and input field for city/town -->
+      <h4>City/Town</h4>
+      <input type="text" id="city" name="city" required><br><br>
+      <!-- Subheading and input field for postal code -->
+      <h4>Postal Code</h4>
+      <input type="text" id="postalCode" name="postalCode" required><br><br>
+      <!-- Subheading and input field for country -->
+      <h4>Country</h4>
+      <input type="text" id="country" name="country" required><br><br>
+    </fieldset>
+
+    <!-- Submit button for form submission -->
+    <input type="submit" value="Submit">
+
+  </form>
+</body>
+</html>
+```

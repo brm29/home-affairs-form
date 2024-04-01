@@ -1,0 +1,127 @@
+
+/* Set font family for the entire document */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* Remove default margin */
+    margin: 0;
+    /* Add padding around the content */
+    padding: 2rem;
+}
+
+/* Style for level 2 headings */
+h2 {
+    /* Center align the text */
+    text-align: center;
+    /* Add space below the heading */
+    margin-bottom: 1rem;
+}
+
+/* Styles for forms */
+form {
+    /* Add border around the form */
+    border: 1px solid #ddd;
+    /* Rounded corners for the form */
+    border-radius: 5px;
+    /* Add padding inside the form */
+    padding: 2rem;
+}
+
+/* Styles for fieldsets */
+fieldset {
+    /* Add border around fieldsets */
+    border: 1px solid #eee;
+    /* Rounded corners for fieldsets */
+    border-radius: 5px;
+    /* Add padding inside fieldsets */
+    padding: 1rem;
+    /* Add space below fieldsets */
+    margin-bottom: 1.5rem;
+}
+
+/* Styles for legends */
+legend {
+    /* Make legend text bold */
+    font-weight: bold;
+    /* Add padding around the legend */
+    padding: 0.5rem;
+}
+
+/* Styles for labels */
+label {
+    /* Display labels on separate lines */
+    display: block;
+    /* Add space below labels */
+    margin-bottom: 0.5rem;
+}
+
+/* Styles for text input, email input, tel input, number input, and textarea */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    /* Make input fields full width */
+    width: 100%;
+    /* Add padding inside input fields */
+    padding: 0.75rem;
+    /* Add border around input fields */
+    border: 1px solid #ccc;
+    /* Rounded corners for input fields */
+    border-radius: 3px;
+    /* Set font size for input fields */
+    font-size: 1rem;
+}
+
+/* Styles for textarea */
+textarea {
+    /* Allow users to resize the textarea vertically */
+    resize: vertical;
+}
+
+/* Styles for file input */
+input[type="file"] {
+    /* Add padding around file input */
+    padding: 0.75rem;
+}
+
+/* Styles for submit button */
+input[type="submit"] {
+    /* Background color for submit button */
+    background-color: #333;
+    /* Text color for submit button */
+    color: #fff;
+    /* Padding for submit button */
+    padding: 0.75rem 1rem;
+    /* Remove default button border */
+    border: none;
+    /* Rounded corners for submit button */
+    border-radius: 3px;
+    /* Change cursor to pointer on hover */
+    cursor: pointer;
+    /* Add smooth transition effect on hover */
+    transition: background-color 0.2s ease-in-out;
+    /* Add space above the submit button */
+    margin-top: 1rem;
+    /* Display submit button on a new line */
+    display: block;
+    /* Adjust button width to fit content */
+    width: fit-content;
+    /* Align button to the right */
+    margin-left: auto;
+}
+
+/* Styles for submit button on hover */
+input[type="submit"]:hover {
+    /* Darken the button color on hover */
+    background-color: #1a1a1a;
+}
+
+/* Additional styling for paragraphs */
+p {
+    /* Set font size for paragraphs */
+    font-size: 0.8rem;
+    /* Set color for paragraphs */
+    color: #666;
+    /* Add space below paragraphs */
+    margin-bottom: 0.5rem;
+}
